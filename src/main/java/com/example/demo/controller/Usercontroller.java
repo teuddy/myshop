@@ -17,6 +17,7 @@ public class Usercontroller {
     @PostMapping
     public void hey(){
         new ResponseEntity<>(HttpStatus.ACCEPTED);
+        String hello = "hhi";
     }
 
 }
